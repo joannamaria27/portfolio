@@ -3,11 +3,11 @@
     <p class="profile"> Angular Frontend Developer</p>
     <p class="info-profile">{{infoProfileEnglish}}</p>
     <p class="info-profile">Save and open CV:
-        <button type="button" class="btn btn-lg" (click)="downloadCV('./assets/cv.pdf','Klimek_Joanna')">
+        <button type="button" class="btn btn-lg" (click)="downloadCV(cv,'Klimek_Joanna')">
             <i class="profile bi bi-download"></i>
         </button>
         Only open:
-        <button type="button" class="btn btn-lg" (click)="openCV('./assets/cv.pdf')">
+        <button type="button" class="btn btn-lg" (click)="openCV(cv)">
             <i class="profile bi bi-folder2-open"></i>
         </button>
     </p>

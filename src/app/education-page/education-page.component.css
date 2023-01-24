@@ -35,3 +35,12 @@
     font-style: italic;
     font-size: 1vw;
 }
+
+hr {
+    width: 70%;
+    margin: auto;
+    border-width: 0.5vw;
+    color: black;
+    background-color: black;
+
+}

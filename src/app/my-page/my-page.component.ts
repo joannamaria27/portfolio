@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-
-declare var require: any
-const FileSaver = require('file-saver');
+import FileSaver from 'file-saver';
 
 @Component({
   selector: 'app-my-page',
@@ -10,8 +8,6 @@ const FileSaver = require('file-saver');
 })
 
 export class MyPageComponent {
-  constructor() { }
-  infoProfile = "Jestem studentką Informatyki i chciałabym rozwijać się w kierunku tworzenia aplikacji internetowych. Lubię poznawać nowe możliwość rozwiązywania  problemów i wykorzystywać je w  praktyce."
   infoProfileEnglish = `I am keen computer science
   student which allows me to explore
   my creative side. I am eager to
@@ -26,13 +22,17 @@ export class MyPageComponent {
   always makes me feel I have
   achieved my goal.
   `
+  cv = './assets/cv.pdf';
+
+  constructor() { }
+
   ngOnInit(): void {
   }
 
-  downloadCV(pdfUrl: string, pdfName: string) {
+  downloadCV(pdfUrl: string, pdfName: string): void {
     FileSaver.saveAs(pdfUrl, pdfName);
   }
-  openCV(pdfUrl: string) {
+  openCV(pdfUrl: string): void {
     window.open(pdfUrl, '_blank');
   }
 }

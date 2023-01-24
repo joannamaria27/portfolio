@@ -2,18 +2,21 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NavigationComponent } from './navigation/navigation.component';
+import { NavbarComponent } from './main/navbar/navbar.component';
 import { MyPageComponent } from './my-page/my-page.component';
 import { EducationPageComponent } from './education-page/education-page.component';
+import { SidebarComponent } from './main/sidebar/sidebar.component';
+import { AppComponent } from './main/main/app.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent,
+    NavbarComponent,
     MyPageComponent,
     EducationPageComponent,
+    SidebarComponent,
 
   ],
   imports: [
