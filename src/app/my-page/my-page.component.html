@@ -1,0 +1,14 @@
+<div class="main">
+    <p class="surname">J o a n n a &nbsp;M a r i a&nbsp; K l i m e k</p>
+    <p class="profile"> Angular Frontend Developer</p>
+    <p class="info-profile">{{infoProfileEnglish}}</p>
+    <p class="info-profile">Save and open CV:
+        <button type="button" class="btn btn-lg" (click)="downloadCV('./assets/cv.pdf','Klimek_Joanna')">
+            <i class="profile bi bi-download"></i>
+        </button>
+        Only open:
+        <button type="button" class="btn btn-lg" (click)="openCV('./assets/cv.pdf')">
+            <i class="profile bi bi-folder2-open"></i>
+        </button>
+    </p>
+</div>
