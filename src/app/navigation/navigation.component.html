@@ -1,0 +1,49 @@
+<div class="container-fluid ">
+
+    <div class="row justify-content-md-center">
+
+        <div class="col-md-auto ">
+            <div class="btn-group-vertical navbottom" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-lg"
+                    (click)="openLink('https://www.linkedin.com/in/joannamariaklimek/')">
+                    <i class="bi bi-linkedin"></i>
+                </button>
+                <button type="button" class="btn btn-lg" (click)="openLink('https://github.com/joannamaria27')">
+                    <i class="bi bi-github"></i>
+                </button>
+                <button type="button" class="btn btn-lg" (click)="copy()">
+                    <i class="bi bi-envelope-at"></i>
+                </button>
+                <p class="left m-3">Joanna Maria Klimek</p>
+            </div>
+        </div>
+
+        <div class="col ">
+            <ul ngbNav #nav="ngbNav" class="justify-content-end navbar-expand-lg navbar fs-6">
+                <li ngbNavItem>
+                    <a ngbNavLink class="text-white">Me</a>
+                </li>
+                <li ngbNavItem>
+                    <a ngbNavLink class="text-white">Skills</a>
+                </li>
+                <li ngbNavItem>
+                    <a ngbNavLink class="text-white">Education</a>
+                </li>
+                <li ngbNavItem>
+                    <a ngbNavLink class="text-white">Projects</a>
+                </li>
+                <li ngbNavItem>
+                    <a ngbNavLink class="text-white">Contact</a>
+                </li>
+
+            </ul>
+            <div [ngbNavOutlet]="nav" class="mt-2">
+
+            </div>
+            <div class="inner-outlet">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+
+    </div>
+</div>
