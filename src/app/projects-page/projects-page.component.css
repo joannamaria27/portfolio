@@ -1,0 +1,24 @@
+.main {
+    color: white;
+    text-align: center;
+}
+
+.title {
+    margin: 5vw;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 5vw;
+}
+
+.image-size {
+    height: max-content;
+}
+
+.profile {
+    font-size: 1.5vw;
+}
+
+.info-profile {
+    font-size: 1vw;
+
+}

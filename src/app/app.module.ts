@@ -9,6 +9,9 @@ import { MyPageComponent } from './my-page/my-page.component';
 import { EducationPageComponent } from './education-page/education-page.component';
 import { SidebarComponent } from './main/sidebar/sidebar.component';
 import { AppComponent } from './app.component';
+import { ProjectsPageComponent } from './projects-page/projects-page.component';
+import { SkillsPageComponent } from './skills-page/skills-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,12 +20,15 @@ import { AppComponent } from './app.component';
     MyPageComponent,
     EducationPageComponent,
     SidebarComponent,
+    ProjectsPageComponent,
+    SkillsPageComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
