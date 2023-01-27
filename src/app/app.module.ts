@@ -8,7 +8,7 @@ import { NavbarComponent } from './main/navbar/navbar.component';
 import { MyPageComponent } from './my-page/my-page.component';
 import { EducationPageComponent } from './education-page/education-page.component';
 import { SidebarComponent } from './main/sidebar/sidebar.component';
-import { AppComponent } from './main/main/app.component';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
