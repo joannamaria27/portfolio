@@ -1,0 +1,46 @@
+.main {
+    color: white;
+    text-align: center;
+}
+
+.title {
+    margin: 5vw;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 5vw;
+}
+
+.left {
+    text-align: left;
+    margin-left: 30%;
+}
+
+.right {
+    text-align: right;
+    margin-right: 30%;
+}
+
+.university {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 50;
+    font-size: 1.5vw;
+}
+
+.date {
+    font-style: italic;
+    font-size: 0.7vw;
+}
+
+.course {
+    font-style: italic;
+    font-size: 1vw;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+    border-width: 0.5vw;
+    color: black;
+    background-color: black;
+
+}
