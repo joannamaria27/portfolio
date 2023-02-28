@@ -1,0 +1,51 @@
+<div class="main">
+    <p class="title">SKILLS</p>
+
+    <div class="row container-fluid">
+
+        <div class="col container-fluid" *ngFor="let skill of skillsList| slice:0:4; let i = index">
+            <div class=" mb-3" style="max-width: auto;">
+                <div class="card-body text-white">
+                    <fa-icon class="logo" [icon]="[skill.type, skill.icon]"></fa-icon>
+                    <h5 class="card-title title-skills">{{skill.name}}</h5>
+                    <p class="card-text name-skills">{{skill.sup}} </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="row ontainer-fluid">
+            <div class="col container-fluid" *ngFor="let skill of skillsList| slice:4:10; let i = index">
+                <div class=" mb-3" style="max-width: auto;">
+                    <div class="card-body text-white">
+                        <fa-icon class="logo" [icon]="[skill.type, skill.icon]"></fa-icon>
+                        <h5 class="card-title title-skills">{{skill.name}}</h5>
+                        <p class="card-text name-skills">{{skill.sup}} </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <hr />
+    <div class="row">
+        <div class="col">
+            <div style="max-width: auto;">
+                <div class="language-skills text-white">
+                    <p><fa-icon [icon]="['fas', 'language']"></fa-icon> Polish: native speaker</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div style="max-width: auto;">
+                <div class="language-skills text-white">
+                    <p><fa-icon [icon]="['fas', 'language']"></fa-icon>
+                        English:
+                        intermediate</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
