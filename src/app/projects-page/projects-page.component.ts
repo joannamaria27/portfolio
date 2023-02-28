@@ -21,7 +21,7 @@ export class ProjectsPageComponent implements OnInit {
   }
 
   openLink(pdfUrl: string): void {
-    window.open(pdfUrl, '_blank');
+    window.open(pdfUrl, '_blank', 'noopener noreferrer');
   }
 
 }

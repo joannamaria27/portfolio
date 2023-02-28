@@ -33,6 +33,6 @@ export class MyPageComponent {
     FileSaver.saveAs(pdfUrl, pdfName);
   }
   openCV(pdfUrl: string): void {
-    window.open(pdfUrl, '_blank');
+    window.open(pdfUrl, '_blank', 'noopener noreferrer');
   }
 }

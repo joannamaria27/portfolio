@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class SidebarComponent {
 
   openLink(pdfUrl: string) {
-    window.open(pdfUrl, '_blank');
+    window.open(pdfUrl, '_blank', 'noopener noreferrer');
   }
   copy() {
     navigator.clipboard.writeText(`joan.mk7@gmail.com`);

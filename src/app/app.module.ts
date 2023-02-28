@@ -13,6 +13,7 @@ import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { SkillsPageComponent } from './skills-page/skills-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     SidebarComponent,
     ProjectsPageComponent,
     SkillsPageComponent,
+    ContactPageComponent,
 
   ],
   imports: [
