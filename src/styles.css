@@ -1,10 +1,7 @@
 html,
 body {
     height: 100%;
-    background-image: linear-gradient(to bottom right, rgb(68, 60, 109), rgb(125, 199, 183));
-}
-
-body {
+    background-color: rgb(151, 163, 223);
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
     color: white;

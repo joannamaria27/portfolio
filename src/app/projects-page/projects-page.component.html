@@ -4,7 +4,7 @@
     <ngb-carousel>
         <ng-template ngbSlide *ngFor="let p of projects; index as i">
 
-            <div class=" wrap ">
+            <div class="wrap carousel-size">
                 <p class="profile">{{p.name}}</p>
                 <p class="info-profile">{{p.description}}</p>
                 <p class="info-profile" *ngIf="p.language">Programming Language: {{p.language}}</p>

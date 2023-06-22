@@ -5,12 +5,14 @@ import { EducationPageComponent } from './education-page/education-page.componen
 import { MyPageComponent } from './my-page/my-page.component';
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { SkillsPageComponent } from './skills-page/skills-page.component';
+import { ProjectOneComponent } from './project-one/project-one.component';
 
 const routes: Routes = [
   { path: '', component: MyPageComponent, },
   { path: 'skills', component: SkillsPageComponent },
   { path: 'education', component: EducationPageComponent },
   { path: 'projects', component: ProjectsPageComponent },
+  { path: 'project-one', component: ProjectOneComponent },
   { path: 'contact', component: ContactPageComponent },
 ];
 

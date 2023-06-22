@@ -14,6 +14,9 @@ import { SkillsPageComponent } from './skills-page/skills-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContactPageComponent } from './contact-page/contact-page.component';
+import { ProjectOneComponent } from './project-one/project-one.component';
+import { ProjectTwoComponent } from './project-two/project-two.component';
+import { ProjectThreeComponent } from './project-three/project-three.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
     ProjectsPageComponent,
     SkillsPageComponent,
     ContactPageComponent,
+    ProjectOneComponent,
+    ProjectTwoComponent,
+    ProjectThreeComponent,
 
   ],
   imports: [

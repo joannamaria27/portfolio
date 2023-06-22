@@ -1,6 +1,7 @@
 .main {
     color: white;
     text-align: center;
+
 }
 
 .surname {
@@ -9,6 +10,7 @@
     font-weight: 200;
     font-size: 5vw;
     letter-spacing: 1.5vw;
+    color: black;
 }
 
 .profile {

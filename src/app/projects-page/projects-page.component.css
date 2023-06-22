@@ -9,10 +9,13 @@
     font-weight: 200;
     font-size: 5vw;
     letter-spacing: 1.5vw;
+    color: black;
 }
 
-.image-size {
-    height: max-content;
+.carousel-size {
+    margin: auto;
+    width: 100%;
+    min-height: 50vh;
 }
 
 .profile {
